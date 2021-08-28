@@ -1,11 +1,11 @@
  // Create the Mapbox
- mapboxgl.accessToken = 'pk.eyJ1IjoiZmFuc2hhciIsImEiOiJja3NvZTE4aHQwaGl1MnBucHdjYTN0ZGFqIn0.yAx21vHCGv6TNEcfaEYcpQ';
+ mapboxgl.accessToken = 'pk.eyJ1IjoiZmFuc2hhciIsImEiOiJja3NyNnI5dHcwOGU4MzJ1bWlyaHV5bHE4In0.Urzj9Gcy9c913jqd5h6khw';
 
  let map = new mapboxgl.Map({
    container: "map", // container id
    style: "mapbox://styles/mapbox/streets-v9", // stylesheet location
    center: [-0.195499, 51.52086], // starting position [lng, lat]
-   zoom: 18 // starting zoom
+   zoom: 21 // starting zoom
  });
  map.addControl(new mapboxgl.NavigationControl());
 
@@ -52,7 +52,7 @@
              },
              paint: {
                "line-color": "#777",
-               "line-width": 0.5
+               "line-width": 1
              }
            });
          } else {
